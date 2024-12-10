@@ -14,7 +14,7 @@ generated_docs.append("dependencies for your project")
 generated_docs.append("## install")
 generated_docs.append("how to install your project")
 
-with open("output_docs.txt", "w") as file:
+with open("output_docs.md", "w") as file:
     for item in generated_docs:
         file.write(f"{item}\n")
 
