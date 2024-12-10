@@ -2,7 +2,8 @@
 
 generated_docs = []
 
-print("we are gonna generate some docs starters in maerkdown.")
+print("we are gonna generate some docs starters in markdown for you be done soon.")
+
 generated_docs.append("# docs")
 generated_docs.append("## about")
 generated_docs.append("text info about your project")
@@ -16,3 +17,5 @@ generated_docs.append("how to install your project")
 with open("output_docs.txt", "w") as file:
     for item in generated_docs:
         file.write(f"{item}\n")
+
+print("finished!")
